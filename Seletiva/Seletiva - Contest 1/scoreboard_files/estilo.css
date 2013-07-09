@@ -1,0 +1,354 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+body {
+	background-color: #EEEEEE;
+	font-family: "Trebuchet MS", "Arial";
+	padding: 0;
+	margin: 0;
+}
+
+#corpo {
+	margin: 0 auto;
+	width: 900px;
+	margin-bottom: 16px;
+}
+
+#cabecalho {
+	height: 147px;
+	font-size: 48px;
+	font-family: 'Tw Cen MT Condensed Extra Bold', 'Tw Cen MT Condensed', sans-serif;
+	color: #828282;
+	
+	background-image: url("images/logo_pequeno.png");
+	
+	
+	background-repeat: no-repeat;
+	
+	
+	background-position: 607px 5px;
+}
+
+#cabecalho p {
+	position: relative;
+	left: 18px;
+	top: 80px;
+}
+
+#menu {
+	background-color: #FFFFFF;
+	margin-bottom: 6px;
+	height: 37px;
+}
+
+#menu ul{
+	
+	position: relative;
+	left: 15px;
+	top: 9px;
+}
+
+#menu ul li {
+	
+	display: inline;
+	padding: 5px 10px;
+}
+
+.itemDeMenu a {
+	font-family: 'Tw Cen MT Condensed Extra Bold', 'Tw Cen MT Condensed', sans-serif;
+	font-size: 24px;
+	
+	color: #CFCFCF;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+.itemDeMenu a:hover{
+	background-color: #EEEEEE;
+	color: #828282;
+	padding: 0px 10px;
+}
+
+.itemSelecionado a {
+	font-family: 'Tw Cen MT Condensed Extra Bold', 'Tw Cen MT Condensed', sans-serif;
+	font-size: 24px;
+	color: #000000;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+.itemSelecionado a:hover{
+	background-color: #EEEEEE;
+	padding: 0px 10px;
+}
+
+
+
+#conteudo {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding-top: 33px;
+	padding-bottom: 10px;
+}
+
+.scoreboard
+{
+	width: 750px;
+	margin: 0 auto;
+	background:none repeat scroll 0 0 #E0E0E0;
+	border:1px solid #AAAAAA;
+	font-size:10pt;
+	padding:1px;
+	text-align:center;
+	font-family:"Trebuchet MS","Arial";
+	
+}
+
+.scoreboard tr th {
+	padding:1px;
+}
+
+.scoreboard td {
+	background:none repeat scroll 0 0 #FFFFFF;
+	padding:1px;
+}
+
+.colunaStartTime {
+	width: 30%;
+}
+
+.colunaEndTime{
+	width: 30%;
+}
+
+.colunaTitle {
+	width: 40%;
+}
+
+.colunaContestants {
+	width: 230px;
+}
+.colunaDeletar {
+	width: 60px;
+}
+
+
+.tituloGrande {
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+.tituloMedio{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+.tituloPequeno {
+	padding-top: 50px;
+	padding-bottom: 19px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#horarioRodape {
+	font-size: 11px;
+	padding-top: 15px;
+}
+
+/* Pagina Login */
+
+#tabelaLogin {
+	background:none repeat scroll 0 0 #E0E0E0;
+	border:1px solid #AAAAAA;
+	font-size:10pt;
+	padding:2px;
+	width: 200;
+	margin: 0px auto 20px auto;
+	text-align: right;
+}
+
+#botaoOk {
+	margin: 0px auto;
+}
+
+.button {
+	margin: 0px auto;
+}
+
+
+/* Tabela confirmação */
+.tabelaConfirmacao {
+	margin: 0px auto;
+}
+.tabelaConfirmacao tr td {
+	padding: 10px;
+}
+
+
+/* Tabela Novo Contest */
+
+#tabelaNovoContest {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #AAAAAA;
+	font-size:10pt;
+	padding:2px;
+	width: 200;
+	margin: 0px auto 20px auto;
+	text-align: left;
+}
+
+#tabelaNovoContest tr td {
+	width: 300px;
+}
+
+/* Judge */
+table.submission
+{
+	background: #E0E0E0;
+	width: 800px;
+	margin: 10px auto 0px auto;
+	border:1px solid #AAAAAA;
+	font-size:10pt;
+	padding: 1px;
+	text-align:center;
+	font-family:"Trebuchet MS","Arial";
+}
+
+table.submission tr
+{
+	background: #FFFFFF;
+	padding: 4;
+}
+
+
+table.submission th
+{
+	text-align: center;
+	background: #E0E0E0;
+}
+
+/* scoreboard */
+td.pend
+{
+	background: #FFFFFF;
+}
+
+td.acc
+{
+	background: #D0FFD0;
+}
+
+td.pe
+{
+	background: #FFFF99;
+}
+
+td.wa
+{
+	background: #FFAAAA;
+}
+
+td.otherError
+{
+	background: #CCCCFF;
+}
+
+/* Code */
+
+table.code
+{
+	border: 1px #AAAAAA solid;
+	text-align: center;
+	background: #E0E0E0;
+	vertical-align: center;
+	padding: 2;
+	font-size: 9pt;
+	margin: 30px auto 10px auto;
+}
+table.code td
+{
+	background: #FFFFFF;
+}
+
+/* Submit */
+table.submit {
+	background:none repeat scroll 0 0 #E0E0E0;
+	border:1px solid #AAAAAA;
+	font-size:10pt;
+	padding:2px;
+	text-align:center;
+	margin: 10px auto 10px auto;
+}
+
+td.celulaBoxSubmit {
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+/* Edit contest */
+
+.tabelaEditContest {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #AAAAAA;
+	font-size:10pt;
+	padding:2px;
+	width: 600px;
+	margin: 5px auto 35px auto;
+	text-align: left;
+}
+
+.tabelaEditContest tr td {
+	width: 50%;
+}
+
+td.celulaBoxBotao {
+	text-align:center;
+	padding: 6px;
+	width: 600px;
+}
+
+.tabelaEditContestListaQuestoes {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #AAAAAA;
+	border-collapse: collapse;
+	font-size:10pt;
+	padding:2px;
+	width: 800px;
+	margin: 5px auto 35px auto;
+	text-align: center;
+}
+
+table#tabelaEdit td {
+    border-top: 1px solid #CCCCCC;
+	padding: 2px 2px 2px 2px;
+}
+
+.colunaEditContestLetter {
+	width: 4%;
+}
+.colunaEditContestName {
+	width: 15%;
+	overflow:hidden;
+}
+.colunaEditContestLink {
+	width: 64%;
+	overflow:hidden;
+}
+.colunaEditContestDelete {
+	width: 4%;
+}
+
+.colunaManageConfigsName {
+	width: 25%;
+}
+
+.colunaManageConfigsDescription {
+	width: 55%;
+}
+
+.colunaManageConfigsSet {
+	width: 20%;
+}
